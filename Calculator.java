@@ -1,5 +1,3 @@
-package Devops.calcy;
-
 public class Calculator {
     public static void main(String[] args) {
         double n1 = 20;
