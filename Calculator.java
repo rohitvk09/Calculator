@@ -9,6 +9,12 @@ public class Calculator {
         double sub = n1 - n2;
         double mul = n1 * n2;
         double div = (n1 / n2);
+        double base = 4;
+        double exponent = 3;
+
+        double power = Math.pow(base, exponent);
+        double squareRoot = Math.sqrt(base);
+        double cubeRoot = Math.cbrt(base);
 
         System.out.println("addition: " + add);
         System.out.println("substraction: " + sub);
@@ -19,5 +25,9 @@ public class Calculator {
         } else {
             System.out.println("division: Cannot divide by zero.");
         }
+
+        System.out.println("Power (base^exponent): " + power);
+        System.out.println("Square Root of base: " + squareRoot);
+        System.out.println("Cube Root of base: " + cubeRoot);
     }
 }
